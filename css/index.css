@@ -1,0 +1,1020 @@
+/*
+
+@font-face {
+  font-family: 'indielabs Frutiger regular';
+  src:url('../fonts/indielabs Frutiger regular.ttf') format('truetype');   
+}
+
+body
+{
+
+font-family:"indielabs Frutiger regular";
+}
+*/
+
+/***strat nav***/
+
+.navbar-default
+{
+    background-color: #3971EC;
+    color: #fff;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    margin: 0;
+    border: #3971EC;
+}
+.navbar-brand>img
+{
+    width: 35%;
+    margin-top: -20px;
+}
+.navbar-default .navbar-nav>li>a
+{
+    color: #eee;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+}
+
+.navbar-default .navbar-nav>li>a:hover
+{
+    color: #fff;
+    font-weight: 600;
+    transition: all ease-in-out 0.5s;
+}
+
+.active-link
+{
+    background-color: #fff;
+    border-radius: 5px;
+ 
+   
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
+{
+    background-color: #fff;
+    color: #0F3E68;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+
+
+/* Portrait phones and ipad */
+@media (max-width: 1200px) {
+  .navbar-default
+    {
+        padding-top: 0;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px)
+{
+    .navbar-brand>img
+{
+    margin-top: -5px;
+}
+    
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .navbar-brand>img
+    {
+        margin-top: -50px;
+    }
+   
+}
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+  .navbar-brand>img
+    {
+        margin-top: 30px;
+    }
+    
+   
+}
+
+
+    
+@media (min-width: 320px) and (max-width: 990px) {
+    
+ .navbar-default .navbar-nav>li>a
+        {
+            margin-right: 0;
+        }
+}
+
+/***end nav***/
+
+/***strat slider***/
+
+
+.slider
+{
+    background-color: #3971EC;
+    padding-bottom: 10px;
+
+}
+
+.inr-pic1
+{
+    margin-top: 100px;
+}
+.inr-prag1
+{
+    margin-top: 100px;
+    color: #fff;
+}
+
+
+.inr-prag1 h1
+{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 500;
+}
+.inr-prag1 p
+{
+    color: #ccc;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
+    {
+        margin-top: 150px;
+    }
+    .inr-prag1 h1
+    {
+        font-size: 50px;
+    }
+    
+    .inr-prag1 p
+    {
+        font-size: 12px;
+    }
+   
+}
+
+
+/***end slider***/
+
+/***strat edu***/
+
+.edu
+{
+    background-image: url(../img/upWave.png);
+    background-size: cover;
+    background-color: #3971EC;
+    padding-top: 40px;
+
+}
+
+.inr-prag2
+{
+    padding-top: 190px;
+    padding-left: 200px;
+   
+    
+}
+.inr-prag2 h2
+{
+    font-weight: bold;
+}
+.inr-prag2 p
+{
+    font-size: 12px;
+    color: #555;
+}
+.inr-prag2 span 
+{
+     color: #555;
+}
+
+.inr-pic2
+{
+    width: 73%;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .inr-pic2
+    {
+
+        margin-top: -60px
+    }
+    
+    .slider {
+    background-color: #3971EC;
+    padding-bottom: 50px;
+        
+    }
+    .edu
+    {
+        background-image: none;
+        background-color: #fff;
+        text-align: center;
+        padding-top: 0;
+       
+        
+    }
+    
+    .inr-prag2
+    {
+
+        padding: 0;
+        margin: 0;
+        margin-top: 200px;
+        margin-left: 50px;
+        text-align: left;
+        
+    }
+   .inr-prag2 span 
+    {
+        display: none;
+    }
+    .inr-prag2 h2
+    {
+        
+    }
+    .inr-prag2 p
+    {
+        
+    }
+    
+}
+
+ @media (max-width: 1200px) {
+     
+     .inr-pic2
+    {
+
+        margin-top: -60px
+    }
+    
+    .slider {
+    background-color: #3971EC;
+    padding-bottom: 50px;
+        
+    }
+    .edu
+    {
+        background-image: none;
+        background-color: #fff;
+        text-align: center;
+        padding-top: 0;
+       
+        
+    }
+    
+    .inr-prag2
+    {
+
+        padding: 0;
+        margin: 0;
+        margin-top: 150px;
+        margin-left: 50px;
+        text-align: left;
+        
+    }
+
+     .picedu
+     {
+         margin-top: 100px;
+     }
+        
+    }
+
+/***end edu***/
+
+
+/***strat service***/
+
+.services
+{
+    margin-top: 80px;
+}
+
+.iner-serv
+{
+    width: 70%;
+    margin: auto;
+}
+
+.services h3
+{
+    font-weight: bold;
+    color: black;
+    font-size: 23px;
+}
+
+.services p
+{
+    color: #444;
+    margin-bottom: 50px;
+}
+
+.box
+{
+    margin: auto;
+    background-color: #fafefe;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    width: 90%;
+    margin-bottom: 45px;
+    box-shadow: 1px 2px 5px 2px  #ccc;
+    transition: all ease-in-out 0.5s;
+   
+}
+
+.box:hover
+{
+    margin: auto;
+    background-color: #3971EC;
+
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    width: 90%;
+    margin-bottom: 45px;
+    box-shadow: 1px 2px 5px 2px  #ccc;
+   
+}
+.box img
+{
+   width: 40%;
+   margin: auto;
+   padding-top: 30px;
+
+    
+}
+
+
+.box p
+{
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.box:hover p{
+    color: #fff;456
+}
+
+
+
+.wave2 img
+{
+    width: 100%;
+    margin-top: -50px;
+}
+
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+
+.box-serv
+{
+    
+    width: 80%;
+    margin-bottom: -50px;
+    
+}
+.box-serv img
+{
+   width: 40%;
+   padding-top: 30px;
+    
+}
+    
+    .wave2 img
+    {
+        margin-top: 0;
+    }
+   
+}
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 1200px) {
+
+.wave2 img {
+    margin-bottom: 80px;
+    }
+
+}
+
+/***end service***/
+
+
+/***start ERP***/
+
+.erp
+{
+    margin: auto;
+}
+
+.inr-erp
+{
+    margin: auto;
+    width: 90%;
+}
+
+.sora
+{
+    margin-top: -500px;
+    width: 75%;
+}
+
+.prag-erp h2
+{
+    font-weight: bold;
+    color: black;
+    margin-bottom:20px;
+}
+.prag-erp
+{
+    margin-top: -400px;
+}
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 1200px) {
+    .sora {
+    margin-top: -400px;
+    width: 75%;
+        
+    }
+        
+.prag-erp {
+    margin-top: -300px;   
+    text-align: left; 
+    
+}
+    
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    
+.prag-erp {
+    margin-top: -300px;
+     float: right;    
+    text-align: left; 
+    
+}
+    
+  .sora {
+    margin-top: -400px;
+    width: 45%;
+        
+    }
+.inr-erp
+    {
+        width: 100%;
+    }
+    
+}
+
+
+
+
+/***end ERP***/
+
+/***start feature ***/
+
+.wave3
+{
+    margin-top: -843px;
+    margin-bottom: -5px;
+    
+}
+
+.Contfeature
+{
+/*    margin-top: 80px;*/
+    
+}
+.Contfeature h3
+{
+    font-weight: bold;
+    color: black;
+    font-size: 23px;
+}
+
+.Contfeature .bigp
+{
+    color: #555;
+    margin-bottom: 150px;
+}
+
+.box-feat
+{
+    margin: auto;
+    margin-bottom: 28px;
+    background-color: #Fff;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: left;
+    width: 80%;
+    box-shadow: 1px 1px 5px 1px #eee;
+    cursor: pointer;
+       
+}
+
+.feat 
+{
+    width: 90%;
+    margin: auto;
+    margin-right: -50px;
+}
+.feat .title
+{
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.prag
+{
+    color: #777;
+    margin-left: 100px;
+    margin-top: -20px;
+    
+}
+
+.img-feat
+{
+    width: 15%;
+    display: inline-block;
+    margin-top:30px;
+}
+
+.change-cont
+{
+    color: #fff;
+    margin-top: 200px;
+    text-align: justify;
+    line-height: 2;
+}
+.change-cont span
+{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.change-cont p
+{
+    color: #ddd;
+}
+
+.imgredmore
+{
+    width: 10%;
+    cursor: pointer;
+    
+}
+.img-redmore
+{
+    text-align: center;
+}
+.btn-request
+{
+    color: #142956;
+    background-color: #fff;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+.lets
+{
+    color: #fff;
+    margin-top: 50px;
+}
+.lets h2
+{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.lets p
+{
+    color: #ccc;
+}
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px)
+{
+   .feat
+    {
+        margin-right:0px;
+    }
+    .img-feat
+{
+    
+    margin-top:40px;
+}
+    .change-cont ul li 
+    {
+        list-style: none;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 1200px) {
+    
+       .feat
+    {
+        margin-right:0px;
+    }
+    .img-feat
+{
+    
+    margin-top:40px;
+}
+    .change-cont ul li 
+    {
+        list-style: none;
+    }
+    
+    .box-feat
+    {
+   
+    margin: auto;
+    margin-bottom: 28px;
+    background-color: #Fff;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: left;
+    width: 90%;
+    box-shadow: 1px 1px 5px 1px #eee;
+    cursor: pointer;
+    }
+    
+    
+    .change-cont 
+{
+    color: #fff;
+    margin-top: 250px;
+    text-align: center; 
+    line-height: 2;
+    margin-bottom: -150px;
+}
+
+}
+    
+/***end feature***/
+
+/***start contact***/
+.contact
+{
+    background-color: #142956;
+    background-image: url(../img/wave1.png);
+    background-size: contain;
+    height: 634px;
+    width: 100%;
+ 
+}
+
+.map
+{
+    background-image: url(../img/Map.png);
+    background-size: contain;
+    background-attachment: fixed;
+    padding-top: 50px;  
+    
+}
+.contact h3
+{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact p
+{
+    color: #444;
+    margin-bottom: 20px;
+}
+
+
+.txtareaclss
+{
+    
+    margin-top: 10px;
+    margin: auto;
+    width: 40%;
+    height: 100px;
+    padding: 10px 30px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  
+}
+    
+.form-control 
+{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 25px 50px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+.btnsend
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    background-color: #356CEA;
+    color: #fff;
+}
+.btnsend:hover
+{
+    color: #fff;
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px)
+{
+    
+.change-cont 
+{
+    color: #fff;
+    margin-top: 150px;
+     text-align: center; 
+    line-height: 1.5;
+    margin-bottom: -150px;
+}
+.lets
+    
+{
+    margin-top: 0;
+}
+.contact
+    {
+        background-color: transparent;
+        background-image: none;
+    }
+       
+ 
+}
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 1200px) {
+    
+.lets
+    
+{
+    margin-top: 0;
+}
+.contact
+    {
+        background-color: transparent;
+        background-image: none;
+    }
+       
+    
+
+}
+
+
+/***end contact***/
+
+/***strat footer***/
+
+.imgfoter
+{
+    width: 8%;
+    margin-top: 115px;
+    margin-left: 400px;
+}
+
+.ulfoot
+{
+    margin-top: -20px;
+    color: #fff;
+    margin-left: 300px;
+}
+.ulfoot span
+{
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration:none;
+    color: #fff;
+}
+ .iconfoot
+{
+    width: 2%;
+    margin: auto;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 5px;
+}
+ .iconfoot:hover
+{
+    background-color: #fff;
+    transition: all ease-in-out 0.5s;
+}
+
+
+
+/* Portrait tablets and small desktops */
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+      
+.foot
+    {
+         background-color: #142956;
+         padding: 10px;
+         margin-top: 30px;
+    }
+    
+.imgfoter
+{
+     width: 8%;
+     margin-top: 115px;
+     margin-left: 200px; 
+}
+        
+}
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 1200px) {
+    .foot
+    {
+         background-color: #142956;
+         padding: 10px;
+         margin-top: 30px;
+    }
+    .imgfoter
+{
+     width: 8%;
+     margin-top: 115px;
+     margin-left: 200px; 
+    }
+     .inr-pic2
+    {
+        width: 100%;
+    }
+
+}
+
+/***end footer***/
+
+
+.change-cont div:not(.tab-one)
+{
+    display: none;
+}
+
+
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px)
+{
+    .form-control
+    {
+        width: 90%;
+        margin: auto;
+    }
+    .txtareaclss
+    {
+        width: 80%;
+        margin: auto;
+    }
+    .prag-erp
+    {
+        margin-top: 0;
+        text-align: center
+    }
+    .sora
+    {
+        margin-top: -60px;
+    }
+    .change-cont
+    {
+    margin-top: 0; 
+    margin-bottom:0; 
+    }
+    .feat .title
+    {
+     font-size: 13px;   
+    }
+    .Contfeature .bigp
+    {
+        margin-bottom: 50px;
+    }
+    .Contfeature
+    {
+        margin-top: 50px;
+    }
+    .btn-request
+    {
+        margin-bottom: 35px;
+    }
+    .img-redmore
+    {
+        display: none;
+    }
+    .wave2 img
+    {
+        margin-bottom: 0;
+    }
+    .inr-prag2
+    {
+        
+        text-align: center;
+        margin-bottom: 0;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .inr-pic2
+    {
+      
+        margin: 0;
+        padding: 0;
+        margin: auto;
+    }
+    .inr-prag1 h1
+    {
+        font-size: 40px;
+        text-align: center;
+    }
+    .inr-prag1 p
+    {
+        text-align: center;
+    }
+    .inr-pic1
+    {
+        margin-top: 50px;
+    }
+    .imgfoter
+    {
+        display: none;
+    }
+    .ulfoot 
+    {
+      padding-top:20px;
+      padding-bottom: 20px;
+      margin: auto;
+    }
+    .iconfoot
+    {
+        width: 5%; 
+        margin: auto;
+    }
+   
+}
+    

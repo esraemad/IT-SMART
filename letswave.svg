@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2560px" height="688px" viewBox="0 0 2560 688" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ITSMART</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="2919" height="2868"></rect>
+    </defs>
+    <g id="ios&amp;android&amp;web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ITSMART" transform="translate(0.000000, -6051.000000)">
+            <g id="Group" transform="translate(-17.000000, 2010.000000)" fill="#FFFFFF">
+                <polygon id="Rectangle-13" points="0 0 2605 0 2605 5193 1214.73658 5193 0 5193"></polygon>
+            </g>
+            <g id="02" transform="translate(0.000000, 5763.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#152956" xlink:href="#path-1"></use>
+            </g>
+            <g id="WaveERP" transform="translate(-340.000000, 5137.000000)" fill="#FFFFFF">
+                <path d="M0,1726 L0,782.856339 L1477.79484,138.788535 C1902.39529,-46.2628451 2425.48987,-46.2628451 2850.09032,138.788535 L4328,782.856339 L4328,1726 L2850.09032,1081.9033 C2425.48987,896.851919 1902.39529,896.880816 1477.79484,1081.9033 L0,1726 Z" id="Fill-5"></path>
+            </g>
+        </g>
+    </g>
+</svg>
